@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#18d215</color>
+    <color name="colorPrimaryDark">#18a015</color>
+    <color name="colorAccent">#404aff</color>
+    <color name="red">#ff0000</color>
+    <color name="card">#e4e1e1</color>
+    <color name="lessonTitle">#3e67e4</color>
+    <color name="lesson">#69b9ff</color>
+    <color name="rating_1_3">#ff0000</color>
+    <color name="rating_4_6">#ff9100</color>
+    <color name="rating_7_9">#e6e600</color>
+    <color name="rating_10_12">#04e600</color>
+    <color name="line">#777777</color>
+    <color name="saved_timetable_item">#989494</color>
+</resources>

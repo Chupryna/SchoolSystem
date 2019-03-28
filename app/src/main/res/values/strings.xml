@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">School System</string>
+
+    <string name="email">Електронна пошта</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Увійти</string>
+    <string name="action_sign_in_short">Увійти</string>
+    <string name="error_invalid_email">Електронна пошта некоректна</string>
+    <string name="error_invalid_password_length">Пароль занадто короткий</string>
+    <string name="error_incorrect_password">Логін або пароль введено неправильно</string>
+    <string name="error_field_required">Це поле є обов\'язковим</string>
+    <string name="error_authorization">Помилка авторизації. Спробуйте ще раз</string>
+    <string name="show_password">Показати пароль</string>
+    <string name="network_not_available">Відсутнє з\'єднання з мережею</string>
+    <string name="password_recovery">Відновлення пароля</string>
+    <string name="email_for_recovery">Електронна пошта для відновлення</string>
+    <string name="recovery">Відновити</string>
+    <string name="email_not_found">Обліковий запис з такою електронною поштою не знайдено.</string>
+    <string name="error_send_code">Не вдалось відправити код. Перевірте правильність e-mail та спробуйте ще раз.</string>
+    <string name="successfully_send_code">Код успішно відправлено. Термін дії - 10 хвилин.</string>
+    <string name="code_already_sent">Код вже відправлено. Перевірте Ваш e-mail.</string>
+    <string name="code">Код</string>
+    <string name="confirm">Підтвердити</string>
+    <string name="new_password">Новий пароль</string>
+    <string name="confirm_new_password">Підтвердити новий пароль</string>
+    <string name="further"><![CDATA[> Далі]]></string>
+    <string name="passwords_not_match">Паролі не співпадають</string>
+    <string name="more_than_5_characters">Пароль має містити більше 5 символів</string>
+    <string name="title_activity_main">Новини</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="news">Новини</string>
+    <string name="timetable_lessons">Розклад уроків</string>
+    <string name="timetable_calls">Розклад дзвінків</string>
+    <string name="success">Успішність</string>
+    <string name="subjects">Предмети</string>
+    <string name="teachers">Вчителі</string>
+    <string name="menu_dining_room">Меню їдальні</string>
+    <string name="announcement">Оголошення</string>
+    <string name="exit">Вийти</string>
+    <string name="all_news">Усі новини</string>
+    <string name="number_symbol">№ уроку</string>
+    <string name="time_lesson">Час</string>
+    <string name="break_between_lessons">Перерва</string>
+    <string name="hint_search">Пошук</string>
+    <string name="title_activity_timetable_lesson">Розклад уроків</string>
+    <string name="action_settings">Settings</string>
+    <string name="subject">Предмет</string>
+    <string name="day">День</string>
+    <string name="choice_date">Оберіть дату</string>
+    <string name="review">Переглянути</string>
+    <string name="number">№</string>
+    <string name="presence">Присутність</string>
+    <string name="rating">Оцінка</string>
+    <string name="date">Дата</string>
+    <string name="lesson">Урок</string>
+    <string name="lastName">Прізвище</string>
+    <string name="profile">Мій профіль</string>
+    <string name="firstName">Ім\'я</string>
+    <string name="surName">По батькові</string>
+    <string name="telephone">Телефон</string>
+    <string name="change">Змінити</string>
+    <string name="school">Навчальний заклад</string>
+    <string name="change_password">Змінити пароль</string>
+    <string name="error_change_phone">Не вдалось змінити номер телефону</string>
+    <string name="phone_successfully_changed">Номер телефону успішно змінено</string>
+    <string name="enter_new_phone">Для зміни необхідно ввести новий номер телефону</string>
+    <string name="cancel">Скасувати</string>
+    <string name="current_password">Поточний пароль</string>
+    <string name="password_successfully_changed">Пароль успішно встановлено</string>
+    <string name="password_not_update">Не вдалось встановити новий пароль</string>
+    <string name="incorrect_password">Неправильний пароль</string>
+
+    <string-array name="days_abbreviated">
+        <item>ПН</item>
+        <item>ВТ</item>
+        <item>СР</item>
+        <item>ЧТ</item>
+        <item>ПТ</item>
+        <item>СБ</item>
+        <item>НД</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>Понеділок</item>
+        <item>Вівторок</item>
+        <item>Середа</item>
+        <item>Четвер</item>
+        <item>П\'ятниця</item>
+        <item>Субота</item>
+        <item>Неділя</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>січня</item>
+        <item>лютого</item>
+        <item>березня</item>
+        <item>квітня</item>
+        <item>травня</item>
+        <item>червня</item>
+        <item>липня</item>
+        <item>серпня</item>
+        <item>вересня</item>
+        <item>жовтня</item>
+        <item>листопада</item>
+        <item>грудня</item>
+    </string-array>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+    </string>
+    <string name="change_photo">Змінити фото</string>
+    <string name="photo_successfully_changed">Фото успішно оновлено</string>
+    <string name="profile_user">Профіль користувача</string>
+    <string name="try_again">Повторити знову</string>
+    <string name="no_data_to_display">Немає даних для відображення</string>
+    <string name="categories_foods">Категорії товарів</string>
+    <string name="timetable_pupils">Розклад учнів</string>
+    <string name="timetable_teachers">Розклад вчителів</string>
+    <string name="to_view_timetable">Показати розклад</string>
+    <string name="saved_timetables">Збережені розклади</string>
+    <string name="save_timetable_successfully">Розклад успішно збережено</string>
+    <string name="not">Ні</string>
+    <string name="yes">Так</string>
+    <string name="you_want_remove_timetable">Ви дійсно бажаєте видалити розклад?</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:title="@string/news" />
+        <item
+            android:id="@+id/nav_timetable_lessons"
+            android:title="@string/timetable_lessons" />
+        <item
+            android:id="@+id/nav_timetable_calls"
+            android:title="@string/timetable_calls" />
+        <item
+            android:id="@+id/nav_success"
+            android:title="@string/success" />
+        <item
+            android:id="@+id/nav_subjects"
+            android:title="@string/subjects" />
+        <item
+            android:id="@+id/nav_teachers"
+            android:title="@string/teachers" />
+        <item
+            android:id="@+id/nav_exit"
+            android:title="@string/exit" />
+    </group>
+
+</menu>
