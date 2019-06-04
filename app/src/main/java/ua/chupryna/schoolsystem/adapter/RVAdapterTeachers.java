@@ -58,6 +58,7 @@ public class RVAdapterTeachers extends RecyclerView.Adapter<RVAdapterTeachers.Te
                 Intent intent = new Intent(context, ProfileActivity.class);
                 intent.putExtra("user", listTeachers.get(holder.getAdapterPosition()));
                 intent.putExtra("myProfile", false);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
             }
         });

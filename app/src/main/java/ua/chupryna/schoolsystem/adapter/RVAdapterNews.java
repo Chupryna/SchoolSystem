@@ -54,6 +54,7 @@ public class RVAdapterNews extends RecyclerView.Adapter<RVAdapterNews.NewsViewHo
             public void onClick(View v) {
                 Intent intent = new Intent(context, NewsActivity.class);
                 intent.putExtra("news", listNews.get(holder.getAdapterPosition()));
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
             }
         });

@@ -69,7 +69,7 @@ public class Constants
         if (connectivityManager == null)
             return false;
         else {
-            NetworkInfo networkInfo[] = connectivityManager.getAllNetworkInfo();
+            NetworkInfo[] networkInfo = connectivityManager.getAllNetworkInfo();
             if (networkInfo != null)
             {
                 for (NetworkInfo info : networkInfo)
@@ -96,9 +96,9 @@ public class Constants
         calendar.setTime(date);
 
         String[] days = context.getResources().getStringArray(R.array.days_abbreviated);
-        String months[] = context.getResources().getStringArray(R.array.months);
+        String[] months = context.getResources().getStringArray(R.array.months);
 
-        int day = calendar.get(Calendar.DAY_OF_WEEK)==1 ? 7 : calendar.get(Calendar.DAY_OF_WEEK)-1;
+        int day = calendar.get(Calendar.DAY_OF_WEEK)== Calendar.SUNDAY ? 7 : calendar.get(Calendar.DAY_OF_WEEK)-1;
         String dayOfWeek = days[day-1];
         String month = months[calendar.get(Calendar.MONTH)];
 
